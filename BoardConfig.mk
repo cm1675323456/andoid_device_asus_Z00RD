@@ -28,8 +28,5 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_KERNEL_SOURCE := kernel/Z00RD
 TARGET_KERNEL_CONFIG := ze500kg_defconfig
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
 # inherit from the proprietary version
 -include vendor/asus/Z00RD/BoardConfigVendor.mk
